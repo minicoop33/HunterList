@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		EFA64A482534ADAB00A20BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA64A472534ADAB00A20BD9 /* AppDelegate.swift */; };
 		EFA64A4A2534ADAB00A20BD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA64A492534ADAB00A20BD9 /* SceneDelegate.swift */; };
-		EFA64A4C2534ADAB00A20BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA64A4B2534ADAB00A20BD9 /* ViewController.swift */; };
 		EFA64A4F2534ADAB00A20BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA64A4D2534ADAB00A20BD9 /* Main.storyboard */; };
 		EFA64A512534ADB600A20BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA64A502534ADB600A20BD9 /* Assets.xcassets */; };
 		EFA64A542534ADB600A20BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA64A522534ADB600A20BD9 /* LaunchScreen.storyboard */; };
 		EFA64A5F2534ADB600A20BD9 /* HunterListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA64A5E2534ADB600A20BD9 /* HunterListTests.swift */; };
 		EFA64A6A2534ADB700A20BD9 /* HunterListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA64A692534ADB700A20BD9 /* HunterListUITests.swift */; };
+		EFA64A782534AE5500A20BD9 /* Hunter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA64A772534AE5500A20BD9 /* Hunter.swift */; };
+		EFA64A7A2534AEDB00A20BD9 /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA64A792534AEDB00A20BD9 /* InventoryItem.swift */; };
+		EFA64A7C253D302D00A20BD9 /* HuntersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA64A7B253D302D00A20BD9 /* HuntersViewController.swift */; };
+		EFA64A7E253DE22700A20BD9 /* HunterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA64A7D253DE22600A20BD9 /* HunterStore.swift */; };
+		EFA64A80253DF23300A20BD9 /* HunterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA64A7F253DF23300A20BD9 /* HunterCell.swift */; };
+		EFA64A8225408C6100A20BD9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA64A8125408C6000A20BD9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		EFA64A442534ADAB00A20BD9 /* HunterList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HunterList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA64A472534ADAB00A20BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFA64A492534ADAB00A20BD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFA64A4B2534ADAB00A20BD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFA64A4E2534ADAB00A20BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFA64A502534ADB600A20BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA64A532534ADB600A20BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		EFA64A652534ADB700A20BD9 /* HunterListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunterListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA64A692534ADB700A20BD9 /* HunterListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterListUITests.swift; sourceTree = "<group>"; };
 		EFA64A6B2534ADB700A20BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA64A772534AE5500A20BD9 /* Hunter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hunter.swift; sourceTree = "<group>"; };
+		EFA64A792534AEDB00A20BD9 /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
+		EFA64A7B253D302D00A20BD9 /* HuntersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntersViewController.swift; sourceTree = "<group>"; };
+		EFA64A7D253DE22600A20BD9 /* HunterStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterStore.swift; sourceTree = "<group>"; };
+		EFA64A7F253DF23300A20BD9 /* HunterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterCell.swift; sourceTree = "<group>"; };
+		EFA64A8125408C6000A20BD9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +111,16 @@
 			children = (
 				EFA64A472534ADAB00A20BD9 /* AppDelegate.swift */,
 				EFA64A492534ADAB00A20BD9 /* SceneDelegate.swift */,
-				EFA64A4B2534ADAB00A20BD9 /* ViewController.swift */,
 				EFA64A4D2534ADAB00A20BD9 /* Main.storyboard */,
 				EFA64A502534ADB600A20BD9 /* Assets.xcassets */,
 				EFA64A522534ADB600A20BD9 /* LaunchScreen.storyboard */,
 				EFA64A552534ADB600A20BD9 /* Info.plist */,
+				EFA64A772534AE5500A20BD9 /* Hunter.swift */,
+				EFA64A792534AEDB00A20BD9 /* InventoryItem.swift */,
+				EFA64A7B253D302D00A20BD9 /* HuntersViewController.swift */,
+				EFA64A7D253DE22600A20BD9 /* HunterStore.swift */,
+				EFA64A7F253DF23300A20BD9 /* HunterCell.swift */,
+				EFA64A8125408C6000A20BD9 /* DetailViewController.swift */,
 			);
 			path = HunterList;
 			sourceTree = "<group>";
@@ -259,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA64A4C2534ADAB00A20BD9 /* ViewController.swift in Sources */,
+				EFA64A7C253D302D00A20BD9 /* HuntersViewController.swift in Sources */,
+				EFA64A7A2534AEDB00A20BD9 /* InventoryItem.swift in Sources */,
+				EFA64A782534AE5500A20BD9 /* Hunter.swift in Sources */,
+				EFA64A7E253DE22700A20BD9 /* HunterStore.swift in Sources */,
 				EFA64A482534ADAB00A20BD9 /* AppDelegate.swift in Sources */,
+				EFA64A80253DF23300A20BD9 /* HunterCell.swift in Sources */,
 				EFA64A4A2534ADAB00A20BD9 /* SceneDelegate.swift in Sources */,
+				EFA64A8225408C6100A20BD9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
